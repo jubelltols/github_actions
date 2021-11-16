@@ -1,0 +1,7 @@
+name: GitHub Actions Node -> Hello World!!!
+on: [push]
+jobs:
+  echo_hello_world:
+    runs-on: ubuntu-latest
+    steps: 
+    - run: echo "Hello world !!!"
